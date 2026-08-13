@@ -1,0 +1,95 @@
+---
+layout: layouts/base.njk
+title: Contact Us
+description: Contact Duft Auto & Tires Chilliwack — call, text, or email to book an appointment. Open Mon-Fri, 5:30 AM to 5:30 PM.
+---
+<div class="breadcrumb"><a href="/">Home</a> / Contact Us</div>
+<section class="hero" id="top">
+<div class="hero-inner">
+<div>
+<span class="eyebrow">Chilliwack, BC — Appointment Only</span>
+<h1>Reach The Shop By Phone Or Email</h1>
+<p class="subhead">Duft Auto & Tires Chilliwack books every appointment by phone, text, or email — no online booking system, just a direct line to the shop.</p>
+<div class="contact-channels">
+<a href="tel:{{ site.phone }}" class="btn-accent">Call {{ site.phoneDisplay }}</a>
+<a href="sms:{{ site.phone }}" class="btn-primary">Text The Shop</a>
+<a href="mailto:{{ site.email }}" class="btn-primary">Email The Shop</a>
+</div>
+</div>
+<div class="map-embed">
+<iframe src="https://www.google.com/maps?q={{ site.schema.latitude }},{{ site.schema.longitude }}&z=17&output=embed" title="{{ site.name }} location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</section>
+<div class="trust-bar">
+<a href="{{ site.reviews.googleUrl }}" target="_blank" rel="noopener"><strong>{{ site.reviews.count }} five-star ratings</strong> on Google — see the reviews</a>
+</div>
+<section class="problem">
+<div class="container">
+<div class="info-grid">
+<div class="info-card">
+<h4>Address</h4>
+<p>{{ site.address.street }}<br>{{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}, {{ site.address.country }}</p>
+</div>
+<div class="info-card">
+<h4>Hours</h4>
+<p>{{ site.hours }}<br>{{ site.hoursSatSun }}</p>
+</div>
+<div class="info-card">
+<h4>Service Area</h4>
+<p>{{ site.serviceArea | join(", ") }}</p>
+</div>
+</div>
+</div>
+</section>
+<section class="contact-form-section" id="contact">
+<div class="container">
+<span class="eyebrow">Send A Message</span>
+<h2>Tell Auggie What Your Vehicle Needs</h2>
+<form id="contact-form" class="form-grid">
+<div>
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+</div>
+<div>
+<label for="phone">Phone</label>
+<input type="tel" id="phone" name="phone">
+</div>
+<div class="full">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div class="full">
+<label for="service">Service Interested In</label>
+<select id="service" name="service">
+<option value="">Select a service</option>
+{% for s in services %}
+<option>{{ s.name }}</option>
+{% endfor %}
+<option>Other</option>
+</select>
+</div>
+<div class="full">
+<label for="message">Message</label>
+<textarea id="message" name="message" required></textarea>
+</div>
+<div class="full">
+<button type="submit" class="btn-accent">Send Message</button>
+<p class="form-note">Sending opens your email app with this message addressed to {{ site.name }}.</p>
+</div>
+</form>
+</div>
+</section>
+<script>
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+e.preventDefault();
+var name = document.getElementById('name').value;
+var phone = document.getElementById('phone').value;
+var email = document.getElementById('email').value;
+var service = document.getElementById('service').value;
+var message = document.getElementById('message').value;
+var body = 'Name: ' + name + '\nPhone: ' + phone + '\nEmail: ' + email + '\nService: ' + service + '\n\n' + message;
+var mailto = 'mailto:{{ site.email }}?subject=' + encodeURIComponent('Website Contact Form — ' + name) + '&body=' + encodeURIComponent(body);
+window.location.href = mailto;
+});
+</script>

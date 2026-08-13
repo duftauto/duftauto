@@ -1,0 +1,46 @@
+{
+  "name": "Duft Auto & Tires Chilliwack",
+  "shortName": "Duft Auto",
+  "nameShort": "Duft Auto & Tires",
+  "url": "https://duftautochilliwack.com",
+  "domain": "duftautochilliwack.com",
+  "phone": "+17787040132",
+  "phoneDisplay": "778-704-0132",
+  "email": "duftautomotive@gmail.com",
+  "address": {
+    "street": "46257 Yale Rd #2",
+    "city": "Chilliwack",
+    "state": "BC",
+    "zip": "V2P 2P5",
+    "country": "Canada"
+  },
+  "hours": "Mon–Fri: 5:30 AM – 5:30 PM",
+  "hoursSatSun": "Sat–Sun: Closed",
+  "googleMapsUrl": "https://www.google.com/maps?cid=5478308833924834483",
+  "cta": {
+    "primaryLabel": "Book Your Appointment",
+    "secondaryLabel": "Schedule Service Today",
+    "url": "/contact/"
+  },
+  "reviews": {
+    "count": "175+",
+    "googleUrl": "https://www.google.com/maps?cid=5478308833924834483"
+  },
+  "owner": "Auguston \"Auggie\" Duft",
+  "credential": "Red Seal-certified Journeyman technician",
+  "serviceArea": ["Chilliwack", "Sardis", "Yarrow", "Rosedale", "Agassiz", "Harrison Hot Springs", "Abbotsford"],
+  "neighbouringCities": ["Agassiz", "Harrison Hot Springs", "Hope", "Abbotsford"],
+  "paymentAccepted": "Interac, Credit Card",
+  "vehiclesServiced": "All makes and models, domestic and import, including diesel. Does not service electric or hybrid vehicles.",
+  "schema": {
+    "type": "AutoRepair",
+    "latitude": 49.1721759,
+    "longitude": -121.9511723,
+    "priceRange": "$$",
+    "openingHours": {
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "05:30",
+      "closes": "17:30"
+    }
+  }
+}

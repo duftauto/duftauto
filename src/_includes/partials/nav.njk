@@ -1,0 +1,11 @@
+<nav class="nav">
+<div class="nav-inner">
+<a class="nav-logo" href="/">{% set logoClass = "" %}{% include "partials/logo.njk" %}</a>
+<div class="nav-links">
+<a href="/#services">Services</a>
+<a href="{{ '#faq' if hasFaq else '/#faq' }}">FAQ</a>
+<a href="/contact/">Contact Us</a>
+</div>
+<a href="{{ site.cta.url }}" class="btn-accent nav-cta">Book Appointment</a>
+</div>
+</nav>

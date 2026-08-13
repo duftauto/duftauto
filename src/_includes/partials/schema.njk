@@ -1,0 +1,62 @@
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "AutoRepair",
+"name": "{{ site.name }}",
+"image": "{{ site.url }}/assets/img/Duft-Auto-Tires-Chilliwack-Logo_277_200.webp",
+"telephone": "{{ site.phone }}",
+"email": "{{ site.email }}",
+"priceRange": "{{ site.schema.priceRange }}",
+"paymentAccepted": "{{ site.paymentAccepted }}",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "{{ site.address.street }}",
+"addressLocality": "{{ site.address.city }}",
+"addressRegion": "{{ site.address.state }}",
+"postalCode": "{{ site.address.zip }}",
+"addressCountry": "CA"
+},
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": {{ site.schema.latitude }},
+"longitude": {{ site.schema.longitude }}
+},
+"openingHoursSpecification": {
+"@type": "OpeningHoursSpecification",
+"dayOfWeek": {{ site.schema.openingHours.dayOfWeek | dump | safe }},
+"opens": "{{ site.schema.openingHours.opens }}",
+"closes": "{{ site.schema.openingHours.closes }}"
+},
+"areaServed": [
+{% for place in site.serviceArea %}
+{"@type": "{{ 'City' if loop.first or place == 'Abbotsford' else 'Place' }}", "name": "{{ place }}"}{% if not loop.last %},{% endif %}
+{% endfor %}
+]
+}
+</script>
+{% if serviceType %}
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Service",
+"serviceType": "{{ serviceType }}",
+"provider": {
+"@type": "AutoRepair",
+"name": "{{ site.name }}",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "{{ site.address.street }}",
+"addressLocality": "{{ site.address.city }}",
+"addressRegion": "{{ site.address.state }}",
+"postalCode": "{{ site.address.zip }}",
+"addressCountry": "CA"
+}
+},
+"areaServed": [
+{% for place in site.serviceArea %}
+{"@type": "{{ 'City' if loop.first or place == 'Abbotsford' else 'Place' }}", "name": "{{ place }}"}{% if not loop.last %},{% endif %}
+{% endfor %}
+]
+}
+</script>
+{% endif %}

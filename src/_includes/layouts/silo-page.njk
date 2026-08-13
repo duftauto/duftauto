@@ -1,0 +1,99 @@
+---
+layout: layouts/base.njk
+hasFaq: true
+---
+<div class="breadcrumb"><a href="/">Home</a> / <a href="{{ item.silo.parentUrl }}">{{ item.silo.topic }}</a> / {{ item.hood.name }}</div>
+<section class="hero" id="top">
+<div class="hero-inner">
+<div>
+<span class="eyebrow">{{ item.hood.name }} — Chilliwack, BC</span>
+<h1>{{ item.silo.topic }} for {{ item.hood.name }} Car Owners</h1>
+<p class="subhead">{{ item.silo.subhead }} Serving {{ item.hood.name }} and every other Chilliwack neighbourhood.</p>
+<ul class="proof-bullets">
+{% for b in item.silo.bullets %}
+<li>{{ b | safe }}</li>
+{% endfor %}
+</ul>
+<a href="{{ site.cta.url }}" class="btn-accent">Book Your Appointment</a>
+</div>
+<div class="hero-photo">
+<img src="/assets/img/{{ item.silo.heroImg }}" alt="{{ item.silo.heroImgAlt }}">
+</div>
+</div>
+</section>
+<div class="trust-bar">
+<a href="{{ site.reviews.googleUrl }}" target="_blank" rel="noopener"><strong>{{ site.reviews.count }} five-star ratings</strong> on Google — see the reviews</a>
+</div>
+<section class="problem">
+<div class="container">
+<p>{{ item.silo.problemText }}</p>
+</div>
+</section>
+<section class="authority">
+<div class="authority-inner">
+<div class="authority-photo">
+<img src="/assets/img/{{ item.silo.authorityImg }}" alt="{{ item.silo.authorityImgAlt }}">
+</div>
+<div>
+<span class="eyebrow">Red Seal Certified</span>
+<h2>{{ item.silo.topic }} For {{ item.hood.name }} Drivers</h2>
+<p>{{ item.silo.authorityText }} Duft Auto welcomes appointments from {{ item.hood.name }}.</p>
+</div>
+</div>
+</section>
+<section class="plan">
+<div class="container">
+<div class="plan-head">
+<span class="eyebrow">How It Works</span>
+<h2>Book Your {{ item.silo.topic }} From {{ item.hood.name }}</h2>
+</div>
+<ol class="steps">
+<li><strong>Book Your Appointment</strong><p>{{ item.silo.step1Base }} About {{ item.hood.driveTime }} from {{ item.hood.name }} to the shop on Yale Rd.</p></li>
+{% for step in item.silo.steps %}
+<li><strong>{{ step.label }}</strong><p>{{ step.body }}</p></li>
+{% endfor %}
+</ol>
+</div>
+</section>
+<section class="result">
+<div class="container">
+<p>{{ item.silo.resultText }}</p>
+<p class="local-tail">{{ item.hood.name }} is {{ item.hood.context }}, {{ item.hood.driveTime }} from Duft Auto & Tires Chilliwack's shop on Yale Rd.</p>
+</div>
+</section>
+{% include "partials/caka/" ~ item.silo.cakaId ~ ".njk" %}
+<section class="accordions" id="faq">
+<div class="container">
+<div class="accordions-head">
+<span class="eyebrow">Questions</span>
+<h2>What {{ item.hood.name }} Drivers Ask Before Booking</h2>
+</div>
+{% for faqItem in item.silo.faq %}
+<details>
+{% if loop.index0 == 3 %}
+<summary>Vehicles Serviced For {{ item.hood.name }} Drivers</summary>
+{% else %}
+<summary>{{ faqItem.q }}</summary>
+{% endif %}
+{% if faqItem.items %}
+<ul>
+{% for li in faqItem.items %}
+<li>{{ li }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if faqItem.body %}
+<div>{{ faqItem.body }}</div>
+{% endif %}
+</details>
+{% endfor %}
+</div>
+</section>
+{% set siloSlug = item.silo.slug %}
+{% set siloHeading = item.silo.topic ~ " — Other Chilliwack Neighbourhoods" %}
+{% set currentCitySlug = item.hood.citySlug %}
+{% include "partials/silo-block.njk" %}
+<div class="cta-secondary">
+<p>{{ item.silo.secondaryCtaText }}</p>
+<a href="{{ site.cta.url }}" class="btn-primary">{{ item.silo.secondaryCtaLabel }}</a>
+</div>

@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Downtown Chilliwack",
+    "slug": "downtown-chilliwack",
+    "side": "North Side",
+    "context": "the historic core of Chilliwack, home to the city's cultural attractions and government buildings",
+    "driveTime": "about 5 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "downtown-chilliwack"
+  },
+  {
+    "name": "Fairfield Island",
+    "slug": "fairfield-island",
+    "side": "North Side",
+    "context": "a suburban, residential community and the northernmost neighbourhood inside city limits",
+    "driveTime": "about 5-10 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "fairfield-island-chilliwack"
+  },
+  {
+    "name": "Camp River",
+    "slug": "camp-river",
+    "side": "North Side",
+    "context": "a rural farming community at the northeast edge of the city, on Fairfield Island",
+    "driveTime": "about 10-15 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "camp-river-chilliwack"
+  },
+  {
+    "name": "Cheam",
+    "slug": "cheam",
+    "side": "North Side",
+    "context": "a community bordering Camp River on Chilliwack's north side",
+    "driveTime": "about 10-15 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "cheam-chilliwack"
+  },
+  {
+    "name": "East Chilliwack",
+    "slug": "east-chilliwack",
+    "side": "North Side",
+    "context": "a rural-suburban area between Downtown Chilliwack and Rosedale",
+    "driveTime": "about 10-15 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "east-chilliwack"
+  },
+  {
+    "name": "Rosedale",
+    "slug": "rosedale",
+    "side": "North Side",
+    "context": "a rural-suburban community along the Fraser River, popular for outdoor tourism",
+    "driveTime": "about 12 minutes",
+    "driveTimeConfirmed": true,
+    "citySlug": "rosedale-chilliwack"
+  },
+  {
+    "name": "Sardis",
+    "slug": "sardis",
+    "side": "South Side",
+    "context": "the urban core of Chilliwack's south side and a popular local shopping destination",
+    "driveTime": "about 5 minutes",
+    "driveTimeConfirmed": true,
+    "citySlug": "sardis-chilliwack"
+  },
+  {
+    "name": "Vedder Crossing",
+    "slug": "vedder-crossing",
+    "side": "South Side",
+    "context": "a growing community on the Vedder River, home to Canada Education Park",
+    "driveTime": "about 10-15 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "vedder-crossing-chilliwack"
+  },
+  {
+    "name": "Promontory",
+    "slug": "promontory",
+    "side": "South Side",
+    "context": "a residential community on Chilliwack's south side",
+    "driveTime": "about 10-15 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "promontory-chilliwack"
+  },
+  {
+    "name": "Atchelitz",
+    "slug": "atchelitz",
+    "side": "South Side",
+    "context": "a rural community southwest of the city core, home to Atchelitz Pioneer Village",
+    "driveTime": "about 10-15 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "atchelitz-chilliwack"
+  },
+  {
+    "name": "Greendale",
+    "slug": "greendale",
+    "side": "South Side",
+    "context": "a community on Chilliwack's west side bordering Abbotsford, formerly known as Sumas",
+    "driveTime": "about 15-20 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "greendale-chilliwack"
+  },
+  {
+    "name": "Yarrow",
+    "slug": "yarrow",
+    "side": "South Side",
+    "context": "a community first settled by Mennonites in the late 1920s, with a long-standing agricultural economy",
+    "driveTime": "about 15-20 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "yarrow-chilliwack"
+  },
+  {
+    "name": "Cultus Lake",
+    "slug": "cultus-lake",
+    "side": "South Side",
+    "context": "a lake, community, and provincial park roughly 11 km southwest of Chilliwack",
+    "driveTime": "about 15-20 minutes",
+    "driveTimeConfirmed": true,
+    "citySlug": "cultus-lake-chilliwack"
+  },
+  {
+    "name": "Columbia Valley",
+    "slug": "columbia-valley",
+    "side": "South Side",
+    "context": "a community south of Chilliwack near Cultus Lake",
+    "driveTime": "about 20-25 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "columbia-valley-chilliwack"
+  },
+  {
+    "name": "Ryder Lake",
+    "slug": "ryder-lake",
+    "side": "South Side",
+    "context": "a small, sub-alpine farming community with nearby hiking access",
+    "driveTime": "about 20-25 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "ryder-lake-chilliwack"
+  },
+  {
+    "name": "Chilliwack River Valley",
+    "slug": "chilliwack-river-valley",
+    "side": "South Side",
+    "context": "a 47-km stretch of mixed residential, vacation, and industrial land, popular for outdoor recreation",
+    "driveTime": "about 20-30 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "chilliwack-river-valley"
+  },
+  {
+    "name": "Popkum",
+    "slug": "popkum",
+    "side": "South Side",
+    "context": "a community at the eastern extreme of Chilliwack's city limits",
+    "driveTime": "about 20-25 minutes",
+    "driveTimeConfirmed": false,
+    "citySlug": "popkum-chilliwack"
+  }
+]

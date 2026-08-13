@@ -1,0 +1,21 @@
+<footer id="contact-info">
+<div class="footer-inner">
+<div>
+{% set logoClass = "footer-logo" %}{% include "partials/logo.njk" %}
+<p>{{ site.address.street }}<br>{{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}, {{ site.address.country }}</p>
+</div>
+<div>
+<h4>Hours &amp; Contact</h4>
+<p>{{ site.hours }}<br>{{ site.hoursSatSun }}</p>
+<p><a href="tel:{{ site.phone }}">{{ site.phoneDisplay }}</a><br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</div>
+<div>
+<h4>Service Area</h4>
+<p>Chilliwack and surrounding neighbourhoods</p>
+<p style="margin-top:0.5rem;">Also welcoming drivers from {{ site.neighbouringCities | join(", ") }}</p>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="container">&copy; {{ meta.year }} {{ site.name }}. Appointment-only auto repair and tire service.</div>
+</div>
+</footer>

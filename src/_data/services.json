@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "/wheel-tire-service/",
+    "name": "Wheel & Tire Service",
+    "img": "Duft-Auto-Tires-Chilliwack-johnbean_728_882.webp",
+    "alt": "Wheel and tire service at Duft Auto",
+    "description": "Mounting, balancing, and new tire sales for daily drivers and trucks alike.",
+    "cakaId": "tire-service-chilliwack"
+  },
+  {
+    "slug": "/routine-maintenance/",
+    "name": "Routine Maintenance",
+    "img": "Duft-Auto-Tires-Chilliwack-shopinterior-carbg-tiremachine_980_882.webp",
+    "alt": "Service bay at Duft Auto & Tires Chilliwack",
+    "description": "Oil changes, tune-ups, and inspections that catch small issues early.",
+    "cakaId": "routine-maintenance-chilliwack"
+  },
+  {
+    "slug": "/engine-repair/",
+    "name": "Engine Repair",
+    "img": "Duft-Auto-Tires-Chilliwack-ryanparks-engineinterior_716_892.webp",
+    "alt": "Engine repair at Duft Auto",
+    "description": "Certified diagnosis and repair for gas, diesel, domestic, and import engines.",
+    "cakaId": "engine-repair-chilliwack"
+  },
+  {
+    "slug": "/engine-modifications/",
+    "name": "Engine Modifications",
+    "img": "Duft-Auto-Tires-Chilliwack-ryanparks_724_889.webp",
+    "alt": "Engine modification work at Duft Auto",
+    "description": "Performance upgrades built to spec by a Red Seal-certified technician.",
+    "cakaId": "engine-modifications-chilliwack"
+  },
+  {
+    "slug": "/oil-changes/",
+    "name": "Oil Changes",
+    "img": "Duft-Auto-Tires-Chilliwack-partsinhand_722_877.webp",
+    "alt": "Parts inspected during service at Duft Auto",
+    "description": "Fast, appointment-only oil service that keeps engines running clean.",
+    "cakaId": "oil-change-chilliwack"
+  },
+  {
+    "slug": "/diagnostics/",
+    "name": "Diagnostics",
+    "img": "Duft-Auto-Tires-Chilliwack-justinc-hooduppluggedintobattery_537_879.webp",
+    "alt": "Vehicle diagnostics at Duft Auto",
+    "description": "Scan-tool and hands-on inspection that finds the real cause, not just a code.",
+    "cakaId": "car-diagnostics-chilliwack"
+  }
+]

@@ -1,0 +1,11 @@
+---
+pagination:
+  data: siloPages
+  size: 1
+  alias: item
+permalink: "/{{ item.silo.slug }}/{{ item.hood.citySlug }}/index.html"
+layout: layouts/silo-page.njk
+eleventyComputed:
+  title: "{{ item.silo.topic | safe }} for {{ item.hood.name }} Car Owners"
+  description: "{{ item.silo.topic | safe }} for {{ item.hood.name }} car owners — Duft Auto & Tires offers Red Seal-certified service. Book an appointment."
+---

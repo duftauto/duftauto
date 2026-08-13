@@ -1,0 +1,30 @@
+<section class="locations-grid" aria-label="Chilliwack Neighbourhoods We Serve">
+<div class="container">
+<div class="services-head">
+<span class="eyebrow">Service Area</span>
+<h2>{{ siloHeading | default("Chilliwack Neighbourhoods We Serve") }}</h2>
+</div>
+<div class="locations-columns">
+<div class="locations-column">
+<h3>North Side</h3>
+<ul>
+{% for hood in neighbourhoods %}
+{% if hood.side == "North Side" and hood.citySlug != currentCitySlug %}
+<li><a href="/{{ siloSlug }}/{{ hood.citySlug }}/">{{ hood.name }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+<div class="locations-column">
+<h3>South Side</h3>
+<ul>
+{% for hood in neighbourhoods %}
+{% if hood.side == "South Side" and hood.citySlug != currentCitySlug %}
+<li><a href="/{{ siloSlug }}/{{ hood.citySlug }}/">{{ hood.name }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+</div>
+</div>
+</section>

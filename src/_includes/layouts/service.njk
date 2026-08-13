@@ -1,0 +1,96 @@
+---
+layout: layouts/base.njk
+hasFaq: true
+---
+{% include "partials/breadcrumb.njk" %}
+<section class="hero" id="top">
+<div class="hero-inner">
+<div>
+<span class="eyebrow">Chilliwack, BC — Appointment Only</span>
+<h1>{{ h1 }}</h1>
+{% if cakaId %}{% include "partials/caka/" ~ cakaId ~ ".njk" %}{% endif %}
+<p class="subhead">{{ subhead }}</p>
+<ul class="proof-bullets">
+{% for b in bullets %}
+<li>{{ b | safe }}</li>
+{% endfor %}
+</ul>
+<a href="{{ site.cta.url }}" class="btn-accent">{{ heroCtaLabel }}</a>
+</div>
+<div class="hero-photo">
+<img src="/assets/img/{{ heroImg }}" alt="{{ heroImgAlt }}">
+</div>
+</div>
+</section>
+<div class="trust-bar">
+<a href="{{ site.reviews.googleUrl }}" target="_blank" rel="noopener"><strong>{{ site.reviews.count }} five-star ratings</strong> on Google — see the reviews</a>
+</div>
+<section class="problem">
+<div class="container">
+<p>{{ problemText }}</p>
+</div>
+</section>
+<section class="authority">
+<div class="authority-inner">
+<div class="authority-photo">
+<img src="/assets/img/{{ authorityImg }}" alt="{{ authorityImgAlt }}">
+</div>
+<div>
+<span class="eyebrow">Red Seal Certified</span>
+<h2>{{ authorityH2 }}</h2>
+<p>{{ authorityText }}</p>
+</div>
+</div>
+</section>
+<section class="plan">
+<div class="container">
+<div class="plan-head">
+<span class="eyebrow">How It Works</span>
+<h2>{{ planHeading }}</h2>
+</div>
+<ol class="steps">
+{% for step in steps %}
+<li><strong>{{ step.label }}</strong><p>{{ step.body }}</p></li>
+{% endfor %}
+</ol>
+</div>
+</section>
+<section class="result">
+<div class="container">
+<p>{{ resultText }}</p>
+</div>
+</section>
+<section class="accordions" id="faq">
+<div class="container">
+<div class="accordions-head">
+<span class="eyebrow">Questions</span>
+<h2>What Drivers Ask Before Booking</h2>
+</div>
+{% for item in faq %}
+<details>
+<summary>{{ item.q }}</summary>
+{% if item.items %}
+<ul>
+{% for li in item.items %}
+<li>{{ li }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% if item.body %}
+<div>{{ item.body }}</div>
+{% endif %}
+</details>
+{% endfor %}
+</div>
+</section>
+{% set siloSlug = page.fileSlug %}
+{% include "partials/silo-block.njk" %}
+{% set excludeSlug = page.url %}
+{% set gridEyebrow = "More Ways We Can Help" %}
+{% set gridHeading = "Explore Our Other Services" %}
+{% set gridSectionClass = "other-services" %}
+{% include "partials/services-grid.njk" %}
+<div class="cta-secondary">
+<p>{{ secondaryCtaText }}</p>
+<a href="{{ site.cta.url }}" class="btn-primary">{{ secondaryCtaLabel }}</a>
+</div>

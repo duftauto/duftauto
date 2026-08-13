@@ -1,0 +1,254 @@
+[
+  {
+    "key": "auto-repair",
+    "slug": "auto-repair",
+    "topic": "Auto Repair",
+    "cakaId": "auto-repair-chilliwack",
+    "parentUrl": "/",
+    "parentLabel": "the homepage",
+    "heroImg": "Duft-Auto-Tires-Chilliwack-duftautowhitecar_726_787.webp",
+    "heroImgAlt": "Vehicle serviced at Duft Auto & Tires Chilliwack",
+    "authorityImg": "Duft-Auto-Tires-Chilliwack-duftautocarinparkinglot_722_880.webp",
+    "authorityImgAlt": "Duft Auto & Tires Chilliwack branded vehicle",
+    "subhead": "Duft Auto & Tires Chilliwack specializes in Red Seal-certified repair and tire service for all makes, backed by 175+ five-star reviews.",
+    "bullets": [
+      "<strong>Red Seal certified</strong> — Journeyman technician on every job",
+      "<strong>175+ five-star reviews</strong> — Chilliwack drivers vouch for the shop",
+      "<strong>Appointment-only</strong> — no wait, no rush, done right",
+      "<strong>All makes, models, diesel</strong> — domestic and import serviced"
+    ],
+    "problemText": "A car that won't start, a dashboard warning light, or a grinding brake pulls a routine day off track. Too many shops pad the invoice with parts that were never worn out, leaving drivers to wonder if the diagnosis was even real. Nobody should pay full replacement price for a problem an honest inspection could have fixed for less.",
+    "authorityText": "Auguston \"Auggie\" Duft, a Red Seal-certified Journeyman technician, leads every repair at Duft Auto & Tires Chilliwack. Duft Auto specializes in diagnostics, engine repair, and tire service for all makes and models, including diesel. Every appointment gets a dedicated bay and Auggie's direct diagnosis — no service-advisor middleman.",
+    "step1Base": "Call, text, or email to reserve a bay time that works.",
+    "steps": [
+      { "label": "Get an Honest Diagnosis", "body": "Auggie inspects and explains exactly what your vehicle needs." },
+      { "label": "Drive Away Fixed", "body": "Leave with a repaired vehicle and a clear invoice, nothing padded." }
+    ],
+    "resultText": "Drivers who choose Duft Auto join more than 175 five-star reviewers already vouching for the shop's transparency and pricing. Customers gain a written diagnosis before a single part gets ordered, and one quoted price before work begins — not after a second opinion. No hidden fees, no surprise upcharges, no guesswork.",
+    "secondaryCtaText": "Ignoring a warning light now risks a bigger bill and a longer wait later.",
+    "secondaryCtaLabel": "Schedule Service Today",
+    "faq": [
+      { "q": "How Much Does Auto Repair Cost vs. Buying New?", "body": "Every repair estimate at Duft Auto comes in writing before work begins, so the cost of fixing a vehicle is clear before any decision gets made. A repair addressing a single failed component — a brake job, an alternator, a diagnostic-flagged sensor — costs a fraction of a vehicle payment and often restores full function for years of continued use. Duft Auto walks through the repair-versus-replace tradeoff directly with the customer before any parts get ordered, not after the invoice arrives. Vehicles with isolated mechanical issues rarely justify replacement over repair." },
+      { "q": "How Do I Know My Vehicle Needs Service?", "items": ["Grinding, squealing, or soft brakes", "Check engine or dashboard warning light", "Vibration or pulling at highway speed", "Rough idle, stalling, or hard starts", "Visible fluid leaks under the vehicle"] },
+      { "q": "What Does the Repair Process Involve at Duft Auto?", "body": "A visit starts with a scheduled appointment — no walk-in wait, no guessing when a bay opens up. Auggie or a certified technician runs a diagnostic scan paired with a physical inspection to confirm the actual cause of the issue, not just the code the vehicle's computer throws. Findings get explained in plain language, with a written estimate covering parts and labor before any work starts. Same-day turnaround applies to most routine jobs — oil changes, brake service, and tire installation — while larger diagnostic or engine repairs get a realistic timeline up front." },
+      { "q": "Vehicles Duft Auto Services", "items": ["Domestic and import passenger vehicles — sedans, hatchbacks, coupes", "Pickup trucks and SUVs, including diesel models", "Daily drivers and family vehicles across Chilliwack", "Pre-purchase inspection clients evaluating a used vehicle before buying", "Drivers from Agassiz, Harrison Hot Springs, Hope, and Abbotsford seeking a Red Seal-certified shop"], "body": "Duft Auto does not currently service electric or hybrid vehicles." },
+      { "q": "Duft Auto's Pricing Promise", "body": "Every Duft Auto appointment includes a written estimate before work begins — no verbal-only quotes, no line items added after the fact. Interac and credit cards are accepted on-site, with appointment scheduling by phone, text, or email." }
+    ]
+  },
+  {
+    "key": "wheel-tire-service",
+    "slug": "wheel-tire-service",
+    "topic": "Wheel & Tire Service",
+    "cakaId": "tire-service-chilliwack",
+    "parentUrl": "/wheel-tire-service/",
+    "parentLabel": "the Wheel & Tire Service page",
+    "heroImg": "Duft-Auto-Tires-Chilliwack-johnbean_728_882.webp",
+    "heroImgAlt": "Tire balancing machine at Duft Auto & Tires Chilliwack",
+    "authorityImg": "Duft-Auto-Tires-Chilliwack-maximmurphy-tire_727_847.webp",
+    "authorityImgAlt": "Aftermarket wheel and tire mounted at Duft Auto & Tires Chilliwack",
+    "subhead": "Duft Auto & Tires Chilliwack specializes in Red Seal-certified tire mounting, balancing, and new tire installation for all makes, including diesel.",
+    "bullets": [
+      "<strong>Red Seal certified</strong> — Journeyman technician balances and mounts every tire",
+      "<strong>Michelin and Goodyear tires</strong> — new tire sales for daily drivers and trucks",
+      "<strong>Appointment-only service</strong> — no wait, dedicated bay time",
+      "<strong>175+ five-star reviews</strong> — Chilliwack drivers trust the shop's pricing"
+    ],
+    "problemText": "A vibration at highway speed, a slow leak, or a worn tread turns a routine drive into a safety risk. Shopping for tires alone means guessing at sizes, brands, and prices without a mechanic explaining the tradeoffs. A safe tire and an honest price belong together, not a tradeoff.",
+    "authorityText": "Auguston \"Auggie\" Duft, a Red Seal-certified Journeyman technician, mounts and balances every tire at Duft Auto & Tires Chilliwack. Duft Auto specializes in tire and wheel service, stocking Michelin and Goodyear tires alongside American Racing rims for daily drivers and trucks. Every tire gets balanced on a John Bean machine and torqued to spec before the vehicle leaves the bay.",
+    "step1Base": "Call, text, or email to reserve a bay for mounting or balancing.",
+    "steps": [
+      { "label": "Tires Mounted and Balanced", "body": "A Red Seal-certified technician mounts, balances, and torques every wheel to spec." },
+      { "label": "Drive Away Vibration-Free", "body": "Leave with tires balanced on a John Bean machine and a clear invoice." }
+    ],
+    "resultText": "Drivers who book tire service at Duft Auto leave with a wheel and tire assembly balanced on a calibrated John Bean machine, not a guess. Customers gain a vibration-free ride and a written price before a single tire gets mounted. No hidden fees, no pressure to buy tires that were not needed.",
+    "secondaryCtaText": "Worn tread and unbalanced wheels raise blowout risk and stopping distance every mile driven.",
+    "secondaryCtaLabel": "Schedule Tire Service Today",
+    "faq": [
+      { "q": "How Much Does Tire Service Cost vs. Replacement?", "body": "Every tire service estimate at Duft Auto comes in writing before work begins, covering mounting, balancing, and any new tires needed. Balancing and rotation cost a fraction of a full tire replacement and often resolve vibration or uneven wear without buying a new set. A tire with adequate tread and a repairable puncture in the tread area costs less to patch than to replace outright. Duft Auto walks through the repair-versus-replace tradeoff directly with the customer before ordering any tire, comparing patch repair, rotation, or full replacement based on the actual condition found during inspection." },
+      { "q": "How Do I Know When My Vehicle Needs Tire Service?", "items": ["Vibration through the steering wheel at highway speed", "Visibly worn or uneven tread across the tire", "Tire pressure warning light or frequent low-pressure refills", "Pulling to one side while driving straight", "Visible bulge, crack, or damage on the sidewall"] },
+      { "q": "What Does the Tire Service Process Involve?", "body": "A tire service visit starts with a scheduled appointment, so a bay and the correct tire size are ready before the vehicle arrives. Auggie or a certified technician inspects tread depth, sidewall condition, and current tire pressure, then confirms whether the tire needs rotation, balancing, repair, or replacement. A tire changer machine mounts a new tire when replacement is needed, seating the bead and inflating to the manufacturer-specified pressure. Every mounted wheel goes on a John Bean tire balancer, which measures weight distribution and guides technician placement of wheel weights at the correction point. Lug nuts get torqued to the vehicle manufacturer's specification before the wheel goes back on. Most tire service, including mounting and balancing a full set, completes within a single appointment window." },
+      { "q": "Vehicles Duft Auto Services", "items": ["Domestic and import passenger vehicles — sedans, hatchbacks, coupes", "Pickup trucks and SUVs, including diesel models", "Daily drivers and family vehicles across Chilliwack", "Drivers seeking new tires and wheel balancing from Michelin, Goodyear, and American Racing", "Drivers from Agassiz, Harrison Hot Springs, Hope, and Abbotsford seeking a Red Seal-certified shop"], "body": "Duft Auto does not currently service electric or hybrid vehicles." },
+      { "q": "Duft Auto's Tire Service Promise", "body": "Every tire service appointment at Duft Auto includes a written estimate before mounting or balancing begins, with no line items added after the fact. Interac and credit cards are accepted on-site, with appointment scheduling by phone, text, or email." }
+    ]
+  },
+  {
+    "key": "routine-maintenance",
+    "slug": "routine-maintenance",
+    "topic": "Routine Maintenance",
+    "cakaId": "routine-maintenance-chilliwack",
+    "parentUrl": "/routine-maintenance/",
+    "parentLabel": "the Routine Maintenance page",
+    "heroImg": "Duft-Auto-Tires-Chilliwack-shopinterior-carbg-tiremachine_980_882.webp",
+    "heroImgAlt": "Service bay at Duft Auto & Tires Chilliwack set up for routine maintenance work",
+    "authorityImg": "Duft-Auto-Tires-Chilliwack-partsinhand_722_877.webp",
+    "authorityImgAlt": "Technician inspecting a disassembled component during a maintenance service at Duft Auto & Tires Chilliwack",
+    "subhead": "Duft Auto & Tires Chilliwack specializes in Red Seal-certified fluid, filter, and belt service for all makes, backed by 175+ five-star reviews.",
+    "bullets": [
+      "<strong>Red Seal certified</strong> — Journeyman technician inspects every vehicle",
+      "<strong>Manufacturer-interval scheduling</strong> — fluid, filter, and belt service tracked by mileage",
+      "<strong>Multi-point inspection included</strong> — brakes, tires, suspension, and battery checked",
+      "<strong>All makes, models, diesel</strong> — domestic and import vehicles serviced"
+    ],
+    "problemText": "A missed oil interval, a cracking belt, or a degraded brake fluid rarely shows a warning sign before it fails. Drivers get burned by shops that skip the inspection and chase a single line item instead of the full vehicle. A missed fluid or belt service turns into an engine or transmission repair that scheduled maintenance exists to prevent.",
+    "authorityText": "Auguston \"Auggie\" Duft, a Red Seal-certified Journeyman technician, inspects and services every vehicle scheduled for routine maintenance at Duft Auto & Tires Chilliwack. Duft Auto specializes in fluid, filter, and belt service tracked against each vehicle's manufacturer interval, for all makes and models including diesel. Every maintenance appointment gets a dedicated bay and a written inspection report, not a rushed once-over.",
+    "step1Base": "Call, text, or email to reserve a bay time that fits.",
+    "steps": [
+      { "label": "Get a Full Multi-Point Inspection", "body": "Auggie checks fluids, filters, belts, brakes, and battery condition." },
+      { "label": "Drive Away On Schedule", "body": "Leave with serviced fluids, updated filters, and a written inspection report." }
+    ],
+    "resultText": "Drivers who keep to a routine maintenance schedule join more than 175 five-star reviewers already vouching for the shop's transparent, no-upselling approach. Customers gain a written inspection report before service begins, and one quoted price for the items actually due — not a padded invoice. Fewer skipped intervals means fewer surprise repairs down the road.",
+    "secondaryCtaText": "Skipping a service interval now risks a bigger repair bill later.",
+    "secondaryCtaLabel": "Schedule Maintenance Today",
+    "faq": [
+      { "q": "How Much Does Routine Maintenance Cost vs. a Major Repair?", "body": "Every routine maintenance estimate at Duft Auto comes in writing before service begins, so the cost of a fluid, filter, or belt service is clear before any decision gets made. A scheduled fluid change or filter swap costs a fraction of the repair that follows when that same service gets deferred past its interval — a neglected belt or degraded transmission fluid can escalate into an engine or transmission repair instead of a routine line item. Duft Auto walks through which items are actually due at the current mileage before ordering any parts, rather than selling a standard package regardless of vehicle condition." },
+      { "q": "How Do I Know When My Vehicle Needs Routine Maintenance?", "items": ["Dashboard maintenance reminder light illuminated", "Mileage approaching the manufacturer-published interval", "Squeaking or cracking sound from a belt", "Fluid appears low, discolored, or contaminated", "Rough idle, delayed shifting, or reduced fuel efficiency"] },
+      { "q": "What Does the Routine Maintenance Process Involve?", "body": "A routine maintenance visit starts with a scheduled appointment — no walk-in wait, no guessing when a bay opens up. Auggie or a certified technician checks the vehicle's mileage against its manufacturer-published interval to confirm which fluids, filters, and belts are due. A multi-point inspection covers brakes, tires, suspension, and battery condition alongside the scheduled service items, with findings recorded in writing. Same-day turnaround applies to most fluid and filter service, while belt replacement or a larger inspection finding gets a realistic timeline up front." },
+      { "q": "Vehicles Serviced For Routine Maintenance", "items": ["Domestic and import passenger vehicles — sedans, hatchbacks, coupes", "Pickup trucks and SUVs, including diesel models", "Daily drivers and family vehicles across Chilliwack", "Higher-mileage vehicles due for a belt or fluid interval check", "Drivers from Agassiz, Harrison Hot Springs, Hope, and Abbotsford seeking Red Seal-certified service"], "body": "Duft Auto & Tires Chilliwack does not currently service electric or hybrid vehicles." },
+      { "q": "Duft Auto & Tires Chilliwack's Maintenance Promise", "body": "Every routine maintenance appointment includes a written inspection report and an itemized estimate before service begins — no verbal-only quotes, no items added after the fact. Interac and credit cards are accepted on-site, with appointment scheduling by phone, text, or email." }
+    ]
+  },
+  {
+    "key": "engine-repair",
+    "slug": "engine-repair",
+    "topic": "Engine Repair",
+    "cakaId": "engine-repair-chilliwack",
+    "parentUrl": "/engine-repair/",
+    "parentLabel": "the Engine Repair page",
+    "heroImg": "Duft-Auto-Tires-Chilliwack-ryanparks-engineinterior_716_892.webp",
+    "heroImgAlt": "Engine timing components exposed during repair at Duft Auto",
+    "authorityImg": "Duft-Auto-Tires-Chilliwack-ryanparks_724_889.webp",
+    "authorityImgAlt": "Disassembled engine cylinder head on workbench during repair at Duft Auto",
+    "subhead": "Duft Auto & Tires Chilliwack specializes in Red Seal-certified engine diagnosis and repair for gas and diesel, domestic and import vehicles.",
+    "bullets": [
+      "<strong>Red Seal certified</strong> — Journeyman technician diagnoses every engine",
+      "<strong>Gas and diesel</strong> — domestic and import engines serviced",
+      "<strong>Appointment-only</strong> — dedicated bay time, no rushed diagnosis",
+      "<strong>175+ five-star reviews</strong> — Chilliwack drivers vouch for accuracy"
+    ],
+    "problemText": "A knocking sound, a check engine light, or a sudden loss of power turns a routine drive into a repair bill nobody planned for. Some shops replace parts that were never the actual problem, leaving drivers to pay twice before the real fault gets found. A restorable engine fault does not warrant a bill built around guesswork instead of an accurate diagnosis.",
+    "authorityText": "Auguston \"Auggie\" Duft, a Red Seal-certified Journeyman technician, diagnoses every engine repair at Duft Auto & Tires Chilliwack personally. Duft Auto specializes in gas and diesel engine diagnosis, covering domestic and import vehicles. Every engine repair starts with a written estimate before parts get ordered, not after.",
+    "step1Base": "Call, text, or email to schedule a bay for an engine inspection.",
+    "steps": [
+      { "label": "Get An Accurate Diagnosis", "body": "Scan tool and physical inspection isolate the exact failed component." },
+      { "label": "Drive Away Fixed", "body": "Leave with a repaired engine and a clear invoice, nothing padded." }
+    ],
+    "resultText": "Drivers who bring an engine problem to Duft Auto join more than 175 five-star reviewers already vouching for accurate diagnosis. Customers gain a written diagnosis naming the exact failed component before a single part gets ordered. No guesswork, no unnecessary teardown, no surprise charges once the invoice arrives.",
+    "secondaryCtaText": "Ignoring a knocking engine risks a bigger repair bill and a longer wait.",
+    "secondaryCtaLabel": "Schedule Engine Diagnosis",
+    "faq": [
+      { "q": "How Much Does Engine Repair Cost vs. Replacement?", "body": "Every engine repair estimate at Duft Auto comes in writing before work begins, so the cost of fixing an engine is clear before a decision gets made. A repair addressing a single failed component — a valve cover gasket, a sensor, a timing chain tensioner — costs a fraction of a full engine replacement and often restores normal operation for years of continued use. Duft Auto walks through the repair-versus-replace tradeoff directly with the customer once diagnostic testing confirms the failed component, not after the invoice arrives." },
+      { "q": "How Do I Know My Engine Needs Repair?", "items": ["Check engine light staying on or flashing", "Knocking or ticking sound, especially at cold start", "Rough idle, stalling, or hard starts", "Visible oil or coolant leaks under the vehicle", "White or blue smoke from the exhaust"] },
+      { "q": "What Does the Engine Repair Process Involve at Duft Auto?", "body": "A visit starts with a scheduled appointment — no walk-in wait, no guessing when a bay opens up. Auggie or a certified technician runs an OBD-II scan paired with a physical inspection, and a compression test when a fault points to a specific cylinder. Findings get explained in plain language, with a written estimate covering parts and labor before any work starts. Straightforward repairs — sensors, gaskets, ignition components — often complete same day, while internal component work such as a timing chain gets a realistic timeline up front." },
+      { "q": "Engines Duft Auto Services", "items": ["Gasoline and diesel engines across domestic and import vehicles", "Sedans, pickup trucks, and SUVs, including diesel models", "Daily drivers and family vehicles across Chilliwack", "Pre-purchase inspection clients evaluating engine condition before buying", "Drivers from Agassiz, Harrison Hot Springs, Hope, and Abbotsford seeking a Red Seal-certified diagnosis"], "body": "Duft Auto does not currently service electric or hybrid vehicle powertrains." },
+      { "q": "Duft Auto's Engine Repair Promise", "body": "Every engine repair at Duft Auto includes a written estimate before work begins — no verbal-only quotes, no parts added after the fact. Interac and credit cards are accepted on-site, with appointment scheduling by phone, text, or email." }
+    ]
+  },
+  {
+    "key": "engine-modifications",
+    "slug": "engine-modifications",
+    "topic": "Engine Modifications",
+    "cakaId": "engine-modifications-chilliwack",
+    "parentUrl": "/engine-modifications/",
+    "parentLabel": "the Engine Modifications page",
+    "heroImg": "Duft-Auto-Tires-Chilliwack-duftautocarinparkinglot_722_880.webp",
+    "heroImgAlt": "Modified BMW with aftermarket wide-body kit and wheels, a Duft Auto customer build",
+    "authorityImg": "Duft-Auto-Tires-Chilliwack-ryanparks_724_889.webp",
+    "authorityImgAlt": "Disassembled engine cylinder head on a workbench at Duft Auto & Tires Chilliwack",
+    "subhead": "Duft Auto & Tires Chilliwack specializes in engine modifications performed by a Red Seal-certified technician, backed by 175+ five-star reviews.",
+    "bullets": [
+      "<strong>Red Seal certified</strong> — Journeyman technician on every build",
+      "<strong>Written build estimate</strong> — parts and labor confirmed first",
+      "<strong>Appointment-only</strong> — dedicated bay time for the job",
+      "<strong>All makes, models, diesel</strong> — domestic and import serviced"
+    ],
+    "problemText": "A modification installed without checking fitment leads to boost leaks, sensor fault codes, and a return trip to the shop. A tune calibrated for the wrong hardware configuration leaves an engine running outside safe parameters, and a rushed job costs a driver a second appointment and a second bill. A vehicle handed over for performance work deserves a written estimate and a documented baseline before the first bolt turns.",
+    "authorityText": "Auguston \"Auggie\" Duft, a Red Seal-certified Journeyman technician, leads every engine modification at Duft Auto & Tires Chilliwack. Duft Auto specializes in intake, exhaust, forced induction, and tuning work performed to manufacturer and component-specific torque and clearance spec. Every build gets a dedicated bay and a documented diagnostic baseline before and after the work.",
+    "step1Base": "Call, text, or email to reserve bay time for your build.",
+    "steps": [
+      { "label": "Get A Written Build Estimate", "body": "Auggie confirms parts, fitment, and labor before installation starts." },
+      { "label": "Drive Away Tuned", "body": "Leave with modification hardware installed to spec and verified." }
+    ],
+    "resultText": "Drivers who choose Duft Auto for engine modification join more than 175 five-star reviewers already vouching for the shop's transparency and pricing. Customers gain a written estimate before parts get ordered and a documented diagnostic baseline before and after installation. No guesswork, no unexplained line items, no surprise upcharges.",
+    "secondaryCtaText": "Installing modification hardware without a written estimate risks a bigger bill and a redo later.",
+    "secondaryCtaLabel": "Schedule Your Build Today",
+    "faq": [
+      { "q": "How Much Does Engine Modification Cost vs. Leaving It Stock?", "body": "Engine modification cost varies by category, part selection, and labor scope — a single intake or exhaust upgrade costs less than a multi-component forced induction build. Duft Auto provides a written estimate listing parts and labor before any component gets ordered, so the cost of a build is clear before a decision gets made. Auggie walks through the modification scope and cost directly with the customer before work begins, not after the invoice arrives." },
+      { "q": "How Do I Know What Modification My Vehicle Needs?", "items": ["Interest in intake or exhaust airflow changes", "Forced induction addition — turbocharger or supercharger", "ECU tuning after hardware installation", "Lift kit for ground clearance or towing use", "Uncertainty about aftermarket part fitment for a specific engine"] },
+      { "q": "What Does the Engine Modification Process Involve at Duft Auto?", "body": "A build starts with a scheduled appointment — no walk-in wait, no guessing when a bay opens up. Auggie confirms part number and fitment against the specific engine, model year, and drivetrain before ordering any modification hardware. A diagnostic baseline gets documented before installation, hardware goes in to manufacturer or component-specific torque spec, and tuning follows once physical components are installed and verified." },
+      { "q": "Vehicles Duft Auto Modifies", "items": ["Domestic and import passenger vehicles — sedans, hatchbacks, coupes", "Pickup trucks and SUVs, including diesel models", "Lift kit installation for trucks and SUVs needing ground clearance", "Drivers across greater Chilliwack", "Drivers from Agassiz, Harrison Hot Springs, Hope, and Abbotsford seeking a Red Seal-certified shop"], "body": "Duft Auto does not currently service electric or hybrid vehicles." },
+      { "q": "Duft Auto's Modification Pricing Promise", "body": "Every Duft Auto modification appointment includes a written estimate before work begins — no verbal-only quotes, no line items added after the fact. Interac and credit cards are accepted on-site, with appointment scheduling by phone, text, or email." }
+    ]
+  },
+  {
+    "key": "oil-changes",
+    "slug": "oil-changes",
+    "topic": "Oil Changes",
+    "cakaId": "oil-change-chilliwack",
+    "parentUrl": "/oil-changes/",
+    "parentLabel": "the Oil Changes page",
+    "heroImg": "Duft-Auto-Tires-Chilliwack-duftautowhitecar_726_787.webp",
+    "heroImgAlt": "Vehicles at the Duft Auto & Tires Chilliwack lot",
+    "authorityImg": "Duft-Auto-Tires-Chilliwack-partsinhand_722_877.webp",
+    "authorityImgAlt": "Parts inspected during service at Duft Auto",
+    "subhead": "Duft Auto & Tires Chilliwack specializes in Red Seal-certified oil service for all makes, synthetic and conventional, done by appointment only.",
+    "bullets": [
+      "<strong>Red Seal certified</strong> — Journeyman technician on every oil change",
+      "<strong>All makes and models</strong> — domestic, import, and diesel serviced",
+      "<strong>Written estimate first</strong> — no surprise charges after service",
+      "<strong>Appointment-only scheduling</strong> — no wait, no rushed job"
+    ],
+    "problemText": "Dashboard oil lights and overdue mileage stickers pile up during a busy week, and skipping the interval starts to feel harmless. Some shops push extra services onto the invoice before the actual oil gets touched, leaving drivers to question every line item. Routine oil service stays limited to the oil and filter, not unworn parts padded onto the invoice.",
+    "authorityText": "Auguston \"Auggie\" Duft, a Red Seal-certified Journeyman technician, checks every oil change at Duft Auto & Tires Chilliwack personally. Duft Auto specializes in full synthetic, synthetic blend, and conventional oil service for all makes, models, and diesel engines. Each appointment includes a written estimate and a multi-point inspection alongside the oil and filter change.",
+    "step1Base": "Call, text, or email to reserve a bay time that works.",
+    "steps": [
+      { "label": "Oil And Filter Replaced", "body": "Auggie drains old oil, swaps the filter, and refills to spec." },
+      { "label": "Drive Away Clean", "body": "Leave with fresh oil, a written summary, and no added charges." }
+    ],
+    "resultText": "Drivers who book an oil change at Duft Auto get a written estimate before the filter comes off, and a multi-point inspection included in the same appointment. Customers gain a documented service record and early notice of developing wear, not just fresh oil. No hidden fees, no surprise upcharges, no guesswork.",
+    "secondaryCtaText": "Delaying an oil change risks avoidable engine wear and a bigger repair bill later.",
+    "secondaryCtaLabel": "Schedule Your Oil Change",
+    "faq": [
+      { "q": "How Much Does An Oil Change Cost vs. Skipping It?", "body": "Every oil change at Duft Auto includes a written estimate before the filter comes off, so the exact cost is clear before work begins. A routine oil and filter change costs far less than the repair bill that follows extended engine wear from a skipped or delayed interval. Duft Auto reviews oil type and interval directly with each customer, matching the service to the vehicle's manufacturer specification rather than defaulting to the highest-priced option." },
+      { "q": "How Do I Know My Vehicle Needs An Oil Change?", "items": ["Oil change or maintenance light on the dashboard", "Oil appears low on the dipstick", "Engine noise or reduced performance", "Approaching or past the manufacturer's mileage interval", "Oil looks gritty or smells burnt"] },
+      { "q": "What Does The Oil Change Process Involve At Duft Auto?", "body": "An oil change appointment starts with a scheduled bay time, confirmed in advance by phone, text, or email. Auggie drains the old oil, replaces the oil filter, and refills the engine with the oil type specified for the vehicle, whether full synthetic, synthetic blend, or conventional. A multi-point inspection runs alongside the oil service, covering tire tread, brake pads, and fluid levels. Most oil change appointments complete within a single service window." },
+      { "q": "Vehicles Duft Auto Services For Oil Changes", "items": ["Domestic and import passenger vehicles — sedans, hatchbacks, and coupes needing routine synthetic or conventional oil service", "Pickup trucks and SUVs, including diesel models requiring diesel-specific oil and filters", "Daily drivers and family vehicles across Chilliwack", "High-mileage vehicles needing seal-conditioning oil formulated for engines with extended service history", "Drivers from Agassiz, Harrison Hot Springs, Hope, and Abbotsford seeking a Red Seal-certified technician"], "body": "Duft Auto does not currently service electric or hybrid vehicles." },
+      { "q": "Duft Auto's Oil Change Promise", "body": "Every oil change appointment at Duft Auto includes a written estimate before work begins, the correct oil type for the vehicle's manufacturer specification, and a multi-point inspection at no added charge. Interac and credit cards are accepted on-site, with appointment scheduling by phone, text, or email." }
+    ]
+  },
+  {
+    "key": "diagnostics",
+    "slug": "diagnostics",
+    "topic": "Diagnostics",
+    "cakaId": "car-diagnostics-chilliwack",
+    "parentUrl": "/diagnostics/",
+    "parentLabel": "the Diagnostics page",
+    "heroImg": "Duft-Auto-Tires-Chilliwack-justinc-hooduppluggedintobattery_537_879.webp",
+    "heroImgAlt": "Vehicle diagnostic scan in progress at Duft Auto & Tires Chilliwack",
+    "authorityImg": "Duft-Auto-Tires-Chilliwack-shopinterior-carbg-tiremachine_980_882.webp",
+    "authorityImgAlt": "Service bay at Duft Auto & Tires Chilliwack",
+    "subhead": "Duft Auto & Tires Chilliwack specializes in scan-tool and hands-on diagnostics for check-engine lights and drivability issues on all makes, including diesel.",
+    "bullets": [
+      "<strong>Red Seal certified</strong> — Journeyman technician runs every scan",
+      "<strong>Scan tool plus physical inspection</strong> — confirms the real cause",
+      "<strong>Written estimate first</strong> — no repair starts without it",
+      "<strong>All makes, models, diesel</strong> — domestic and import covered"
+    ],
+    "problemText": "A check engine light stays on for weeks with no clear explanation, or a car stumbles at idle and nobody can say why. Drivers pay for a part that gets swapped based on a guess, then watch the same warning light come back a month later. Nobody deserves a bill for a part that was never confirmed as the actual problem.",
+    "authorityText": "Auguston \"Auggie\" Duft, a Red Seal-certified Journeyman technician, runs every diagnostic appointment at Duft Auto & Tires Chilliwack. Duft Auto specializes in scan-tool and hands-on diagnosis for check-engine lights, drivability complaints, and electrical faults on all makes, models, and diesel engines. Every diagnostic includes a written estimate before repair work starts.",
+    "step1Base": "Call, text, or email to reserve a diagnostic bay time.",
+    "steps": [
+      { "label": "Scan And Inspect", "body": "Technician pairs a computer scan with hands-on testing to confirm cause." },
+      { "label": "Get A Written Estimate", "body": "Leave with a confirmed diagnosis and a clear repair cost." }
+    ],
+    "resultText": "Drivers join more than 175 five-star reviewers who cite diagnostic accuracy as a reason they return to Duft Auto. Customers gain a written diagnosis confirmed by scan data and physical inspection, then one quoted repair price before any part gets ordered. No repeat visits for a guess that didn't fix the problem.",
+    "secondaryCtaText": "A misdiagnosed warning light risks a bigger repair bill later.",
+    "secondaryCtaLabel": "Book a Diagnostic Appointment",
+    "faq": [
+      { "q": "How Much Does A Diagnostic Cost vs. Guessing At Repairs?", "body": "Every diagnostic appointment at Duft Auto includes a written estimate before repair work begins, so the cost of fixing the actual problem stays clear before any decision gets made. Duft Auto pairs a scan-tool code read with a physical inspection first, confirming the real cause before a single part gets ordered." },
+      { "q": "How Do I Know My Car Needs A Diagnostic?", "items": ["Check engine or dashboard warning light stays on", "Rough idle, stalling, or hard starts", "Loss of power or hesitation while driving", "Unexplained drop in fuel economy", "Vehicle fails to start or starts intermittently"] },
+      { "q": "What Does The Diagnostic Process Involve At Duft Auto?", "body": "A diagnostic visit starts with a scheduled appointment — no walk-in wait, no guessing when a bay opens up. Auggie or a certified technician connects a scan tool to read stored trouble codes from the vehicle's computer, then follows with a physical inspection of the flagged component and related wiring. A test drive confirms intermittent faults that don't show up during a stationary scan." },
+      { "q": "Vehicles Duft Auto Diagnoses", "items": ["Domestic and import passenger vehicles — sedans, hatchbacks, coupes", "Pickup trucks and SUVs, including diesel models", "Daily drivers and family vehicles across Chilliwack", "Pre-purchase inspection clients checking a used vehicle before buying", "Drivers from Agassiz, Harrison Hot Springs, Hope, and Abbotsford seeking a Red Seal-certified diagnosis"], "body": "Duft Auto does not currently diagnose electric or hybrid vehicles." },
+      { "q": "Duft Auto's Diagnostic Guarantee", "body": "Every diagnostic appointment includes a written estimate before repair work begins — no verbal-only quotes, no parts ordered without a confirmed cause. Interac and credit cards are accepted on-site, with appointment scheduling by phone, text, or email." }
+    ]
+  }
+]

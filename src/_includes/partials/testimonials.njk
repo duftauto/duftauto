@@ -1,0 +1,39 @@
+<section class="testimonials">
+<div class="container">
+<div class="testimonials-head">
+<span class="eyebrow">What Drivers Are Saying</span>
+<h2>{{ site.reviews.count }} Google Reviews</h2>
+<a href="{{ site.reviews.googleUrl }}" class="text-link" target="_blank" rel="noopener">Read all reviews on Google →</a>
+</div>
+<div class="testimonial-carousel">
+<button type="button" class="carousel-arrow carousel-prev" aria-label="Previous review">‹</button>
+<div class="testimonial-track" tabindex="0" aria-label="Customer reviews, scroll horizontally">
+{% for t in testimonials %}
+<div class="testimonial-card">
+<p class="testimonial-quote">"{{ t.quote }}"</p>
+<div class="testimonial-reviewer">
+<strong>{{ t.name }}</strong>
+<span>{{ t.meta }}</span>
+</div>
+</div>
+{% endfor %}
+</div>
+<button type="button" class="carousel-arrow carousel-next" aria-label="Next review">›</button>
+</div>
+</div>
+</section>
+<script>
+(function(){
+var track = document.currentScript.previousElementSibling.querySelector('.testimonial-track');
+var prev = document.currentScript.previousElementSibling.querySelector('.carousel-prev');
+var next = document.currentScript.previousElementSibling.querySelector('.carousel-next');
+if (!track || !prev || !next) return;
+function step(dir) {
+var card = track.querySelector('.testimonial-card');
+var amount = card ? card.getBoundingClientRect().width + 24 : 320;
+track.scrollBy({ left: dir * amount, behavior: 'smooth' });
+}
+prev.addEventListener('click', function(){ step(-1); });
+next.addEventListener('click', function(){ step(1); });
+})();
+</script>

@@ -1,12 +1,12 @@
 :root {
---color-bg: #F3EFE6;
---color-bg-alt: #E9E3D4;
---color-text: #14140F;
---color-gray-dark: #6B6B62;
---color-gray-light: #C9C4B8;
---color-accent: #BD5B12;
---color-cta-text: #F3EFE6;
---color-dark: #14140F;
+--color-bg: #FFFFFF;
+--color-bg-alt: #F1F1F1;
+--color-text: #0D0D0D;
+--color-gray-dark: #4D4D4D;
+--color-gray-light: #C7C7C7;
+--color-accent: #D62828;
+--color-cta-text: #FFFFFF;
+--color-dark: #0D0D0D;
 --font-heading: 'Archivo', sans-serif;
 --font-body: 'Inter', sans-serif;
 --radius: 3px;
@@ -255,7 +255,7 @@ footer h4 { color: var(--color-bg); font-size: 0.95rem; margin-bottom: 0.9rem; }
 footer p, footer a { font-size: 0.92rem; color: var(--color-gray-light); }
 footer a:hover { color: var(--color-accent); }
 .footer-logo { height: 34px; margin-bottom: 1rem; }
-.footer-bottom { max-width: var(--max-width); margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid #2a2a20; font-size: 0.8rem; color: var(--color-gray-dark); }
+.footer-bottom { max-width: var(--max-width); margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid #2a2a2a; font-size: 0.8rem; color: var(--color-gray-dark); }
 /* BREADCRUMB (service pages) */
 .breadcrumb { background: var(--color-bg-alt); padding: 0.7rem 1.5rem; font-size: 0.82rem; color: var(--color-gray-dark); }
 .breadcrumb a:hover { color: var(--color-accent); }
